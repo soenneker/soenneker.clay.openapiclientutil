@@ -14,6 +14,7 @@ using Soenneker.Utils.AsyncSingleton;
 
 namespace Soenneker.Clay.OpenApiClientUtil;
 
+/// <inheritdoc cref="IClayOpenApiClientUtil" />
 public sealed class ClayOpenApiClientUtil : IClayOpenApiClientUtil
 {
     private readonly AsyncSingleton<ClayOpenApiClient> _client;
