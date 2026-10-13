@@ -25,7 +25,7 @@ public sealed class ClayOpenApiClientUtil : IClayOpenApiClientUtil
         {
             HttpClient httpClient = await httpClientUtil.Get(token).NoSync();
 
-            var apiKey = configuration.GetValueStrict<string>("Clay:ApiKey");
+            var apiKey = configuration.GetStringStrict("Clay:ApiKey");
             string authHeaderName = configuration["Clay:AuthHeaderName"] ?? "clay-api-key";
             string authHeaderValueTemplate = configuration["Clay:AuthHeaderValueTemplate"] ?? "{token}";
             string authHeaderValue = authHeaderValueTemplate.Replace("{token}", apiKey, StringComparison.Ordinal);
