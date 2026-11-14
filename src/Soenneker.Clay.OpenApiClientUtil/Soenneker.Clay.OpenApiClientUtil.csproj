@@ -48,6 +48,6 @@
     <ItemGroup>
         <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="11.0.61" />
         <PackageReference Include="Soenneker.Clay.HttpClients" Version="11.0.95" />
-        <PackageReference Include="Soenneker.Clay.OpenApiClient" Version="11.0.53" />
+        <PackageReference Include="Soenneker.Clay.OpenApiClient" Version="11.0.54" />
     </ItemGroup>
 </Project>
