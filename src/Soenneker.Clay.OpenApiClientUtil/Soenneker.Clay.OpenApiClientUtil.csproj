@@ -46,7 +46,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="11.0.61" />
+        <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="11.0.62" />
         <PackageReference Include="Soenneker.Clay.HttpClients" Version="11.0.97" />
         <PackageReference Include="Soenneker.Clay.OpenApiClient" Version="11.0.57" />
     </ItemGroup>
